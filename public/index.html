@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pointer Capture Lab</title><link rel="stylesheet" href="/styles.css"></head>
+<body><main class="shell"><header><p class="eyebrow">BROWSER API LAB</p><h1>Pointer Capture Lab</h1><p>Drag beyond the pad and compare the event stream.</p></header>
+<label class="toggle"><input id="capture-toggle" type="checkbox" checked> Capture the pointer on pointerdown</label>
+<section id="pad" class="pad" aria-label="Pointer test area"><strong>Drag here</strong><span>Try moving outside the panel while holding the pointer.</span><output id="position">x: — · y: —</output></section>
+<section class="log-head"><h2>Event log</h2><button id="clear" type="button">Clear log</button></section><ol id="events" class="events" aria-live="polite"></ol>
+</main><script src="/app.js"></script></body></html>

@@ -1,0 +1,8 @@
+{
+  "name": "browser-pointer-capture-lab",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  }
+}
